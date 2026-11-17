@@ -79,7 +79,7 @@ System.out.println(g+" "+h);
 }
 }
 ----------------------------------------------------------------
-Class :- A class is a known as object framework.
+Class :- A class is  known as object framework.
 A class contains variables and methods.
 ---------------------------------------------------------------------
 Object is a reference pointer to the class.
@@ -173,16 +173,17 @@ To access a constructor we require an object.
 program-5
 --------------------
 package monday;
+package org.tuesday;
 import java.util.*;
-class first
+class First
 {
 int rollno;//intance variable
 String name,address;
-first()
+First()
 {
 	System.out.println("this is a default constructor which is without any parameter");
 }
-first(int rollno,String name,String address)//local variable
+First(int rollno,String name,String address)//local variable
 {
 	this.rollno=rollno;//to differenciate between intance variable and local variable we use this
 	this.name=name;//keyword.
@@ -194,13 +195,11 @@ void display()
 	System.out.println("the name is "+name);
 	System.out.println("the address is "+address);
 	}
-}
-class second
+public static void main(String[] args) 
 {
-public static void main(String[] args) {
-	first ob=new first();
-	first ob1=new first(101,"ajay","bangalore");
-	first ob2=new first(102,"trupti","orissa");
+	First ob=new First();
+	First ob1=new First(101,"ajay","bangalore");
+	First ob2=new First(102,"trupti","orissa");
 	ob1.display();ob2.display();
 }
 }

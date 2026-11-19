@@ -1,3 +1,6 @@
+https://github.com/sandipmohapatra2026/BNM-COLLEGE
+
+
 Java 1.8 features
 --------------------------
 1)Java is Object Oriented programming Language.
@@ -44,7 +47,23 @@ we have 4 access specifier private,public,protected,default.
 2)public :- if we declare variable and methods as public we can access it within the class,outside the class and also outside the package.
 3)protected :- if we declare variable and methods as protected we can access it within the class and also outside the child class.
 4)default :- if we declare variable and methods as default we can access it within the class ,out side the class but not outside the package.
-------------------------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------
+import java.util.*;
+public class First 
+{
+public static void main(String[] args)
+{
+	Scanner ob=new Scanner(System.in);
+	System.out.println("enter 2 nos");
+	int a=ob.nextInt();
+	int b=ob.nextInt();
+	if(a>b)
+		System.out.println("the greatest is "+a);
+	else
+		System.out.println("the greatest is "+b);
+}
+}
+-------------------------------------------------------------------------------------
 package org.wednesday;
 import java.util.*;
 public class First 
@@ -313,9 +332,6 @@ float sum(float a,float b)
 {
 	return a+b;
 }
-}
-class second
-{
 public static void main(String[] args) {
 	first ob=new first();
 	first ob1=new first(101,"ajay","bangalore");
@@ -328,8 +344,8 @@ public static void main(String[] args) {
 }
 -----------------------------------------------------------------------
 Question-2
-wap to create a parameterized constractor .pass the values and display it.
-employee :- empno,name,designation,salary.
+
+
 -------------------------------------------------------------------------------------------------------------
 program-7
 ---------------------

@@ -1,4 +1,5 @@
 https://github.com/sandipmohapatra2026/BNM-COLLEGE
+--------------------------------------------------------------------------------
 
 
 Java 1.8 features
@@ -169,6 +170,18 @@ System.out.println(d+" "+e+" "+f);
 System.out.println(g+" "+h);
 }
 }
+------------------------------------
+package org.thursday;
+//for loop
+public class loops 
+{
+public static void main(String[] args) 
+{
+	for(int i=1;i<=10;i++)
+		System.out.println(i);
+}
+}
+
 ----------------------------------------------------------------
 Class :- A class is  known as object framework.
 A class contains variables and methods.
